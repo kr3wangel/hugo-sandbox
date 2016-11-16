@@ -1,0 +1,18 @@
+<!--
+Required Files
+* = new file/folder
+    - content > *search.md
+    - themes > *search > *single.html
+    - static > *js > *vendor > *lunr.min.js
+-->
+
+<div class="section">
+    <header><div class="title">Search</div></header>
+<div class="content" id="side-search">
+
+    <form action="{{.Site.BaseURL}}/search/" method="GET">
+        <input type="text" id="search" placeholder="Search" name="q" />
+    </form>
+
+</div>
+</div>

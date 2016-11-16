@@ -1,0 +1,8 @@
+{{ range $key, $value := .Site.Taxonomies }}
+  <div class="section taxonomies">
+    <header><div class="title">{{ $key | pluralize }}</div></header>
+    <div class="content">
+      {{ range first 5 $value.ByCount }}<a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">{{ .Name }}</a>{{ end }}
+    </div>
+  </div>
+  {{ end }}

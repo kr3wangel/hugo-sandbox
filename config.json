@@ -1,0 +1,21 @@
+{
+    "baseurl": "http://localhost:1313/",
+    "languageCode": "en-us",
+    "title": "Hugo Sandbox",
+    "permalinks": {
+        "post": "/:year/:month/:title/"
+    },
+    "taxonomies": {
+        "category": "categories",
+        "tag": "tags"
+    },
+    "params": {
+        "metaDescription": "Just another Sandbox Site",
+        "sitePurpose": "Bacon ipsum dolor amet exercitation meatloaf et, tempor tri-tip pork kielbasa aliqua sint rump nisi. Swine cow eiusmod magna ut, non porchetta nulla fugiat. Ribeye jerky t-bone, meatloaf non sed ut cupidatat voluptate drumstick enim ullamco magna. Short ribs esse duis alcatra burgdoggen id. Turkey shankle officia pancetta veniam leberkas ball tip qui burgdoggen sunt pariatur fatback.",
+        "seoTitle": "Hugo Sandbox Site",
+        "h1Field": "Hugo Sandbox Site", 
+        "logo": "wp-content/uploads/logo.png",
+        "avatar": "/images/mystery_man.png",
+        "css": ""
+    }
+}

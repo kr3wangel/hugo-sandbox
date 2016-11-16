@@ -1,0 +1,9 @@
+  <div class="section">
+    <header><div class="title">Latest Posts</div></header>
+    <div class="content">
+      <!--This number will determine how many posts are shown-->
+      {{ range first 10 .Site.Pages }} 
+      <div class="sm">{{ .Render "li" }}</div>
+      {{ end }}
+    </div>
+  </div>

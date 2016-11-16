@@ -1,0 +1,7 @@
+<div class="section taxonomies">
+    <header><div class="title">Tags</div></header>
+<div class="content">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+  {{ end }}
+</div>
